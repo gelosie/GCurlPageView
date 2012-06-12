@@ -157,10 +157,10 @@
 
 - (void) exchangeView
 {   
-    [UIView beginAnimations:@"CurlAnimation" context:nil];
-	[UIView setAnimationDuration:0.5f];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	[UIView setAnimationRepeatAutoreverses:NO];
+   // [UIView beginAnimations:@"CurlAnimation" context:nil];
+	//[UIView setAnimationDuration:0.5f];
+	//[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	//[UIView setAnimationRepeatAutoreverses:NO];
     
     [UIView animateWithDuration:0.5f animations:^{
         if (delegate != nil && [delegate respondsToSelector:@selector(pageScrollViewWillScroll:)]) {
